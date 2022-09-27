@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif; }
+
+p {
+  font-size: 16px; }
+  p span {
+    font-size: 15px; }
+
+.avatar img {
+  width: 44px;
+  height: 44px; }
+
+.circle {
+  background-color: #f65351;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  margin-bottom: 22px;
+  margin-left: 10px; }
+
+.attribution {
+  font-size: 11px;
+  text-align: center; }
+
+.attribution a {
+  color: #3e52a3; }
+
+.container {
+  min-width: 1440px;
+  min-height: 991px;
+  background-color: #f7fafd;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .container__card {
+    width: 730px;
+    height: 840px;
+    border-radius: 20px;
+    background-color: white; }
+    .container__card .title-content {
+      position: relative;
+      margin-top: 40px;
+      margin-left: 33px;
+      margin-right: 33px;
+      display: flex;
+      justify-content: space-between; }
+      .container__card .title-content .title-notifications {
+        font-weight: 800; }
+      .container__card .title-content .number {
+        position: absolute;
+        border-radius: 7px;
+        font-size: 16px;
+        font-weight: 800;
+        left: 165px;
+        color: white;
+        background-color: #1c202b;
+        padding: 3px 13px 3px 13px; }
+    .container__card .container-boxes {
+      margin-top: 33px; }
+      .container__card .container-boxes .box {
+        width: 667px;
+        height: 77px;
+        background-color: #f7fafd;
+        margin: 0 auto;
+        margin-top: 10px;
+        padding-left: 20px;
+        border-radius: 12px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        position: relative; }
+        .container__card .container-boxes .box p {
+          line-height: 25px;
+          margin-left: 20px; }
+          .container__card .container-boxes .box p .box-bold-color {
+            color: #5e6778; }
+          .container__card .container-boxes .box p .date {
+            color: #939dae;
+            font-size: 15px; }
+      .container__card .container-boxes .box-3 {
+        width: 568px;
+        height: 95px;
+        background-color: white;
+        border: thin solid #dde7ee;
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-left: 110px;
+        padding: 18px;
+        border-radius: 5px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center; }
+      .container__card .container-boxes .box-2 {
+        width: 667px;
+        height: 77px;
+        background-color: white;
+        margin: 0 auto;
+        margin-top: 20px;
+        padding-left: 20px;
+        border-radius: 12px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center; }
+      .container__card .container-boxes .avatar-modifiquer {
+        position: absolute;
+        left: 600px; }

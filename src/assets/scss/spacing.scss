@@ -1,0 +1,27 @@
+@mixin box-2 {
+  width: 667px;
+  height: 77px;
+  background-color: $White;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding-left: 20px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+@mixin box-3 {
+  width: 568px;
+  height: 95px;
+  background-color: $White;
+  border: thin solid $Lightgrayishblue2;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-left: 110px;
+  padding: 18px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
